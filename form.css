@@ -1,0 +1,19 @@
+#submit-button{
+    margin: auto;
+    display: block;
+    position: relative;
+    right: 100px;
+}
+
+#back-button{
+    margin: auto;
+    display: block;
+    width: 80px;
+    position: relative;
+    top: -36px;
+    left: 100px;
+}
+
+.group-container{
+    margin-bottom: 20px;
+}

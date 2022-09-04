@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="form.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- Leave those next 4 lines if you care about users using IE8 -->
@@ -23,6 +24,8 @@
     <form method="POST" action="https://script.google.com/macros/s/AKfycbxrYaJLwFRQ_8Q2alau0it8Pc-O1TqtcMB6vIohKT9XJLNFSSfD5z41jGbVvN9CaDZd/exec
         ">
         <div class="form-group" style="margin:20px 30px;">
+            <p><strong>Your information</strong></p>
+
             <label for="name">Your Name:</label>
             <input type="text" class="form-control" name="name">
 
@@ -42,8 +45,8 @@
             <input type="text" class="form-control" name="basedlocation">
         </div>
         <div class="form-group" style="margin:20px 30px;">
-            <label for="name"> Please provide details about a few significant Asian American exhibitions from 1960 to
-                present that you have been a part of (or know about).</label><br>
+            <p><strong>Please provide details about a few significant Asian American exhibitions from 1960 to
+                present that you have been a part of (or know about).</strong></p>
             <label for="name">Exhibition 1</label>
             <input type="text" class="form-control" name="exhibitionduration1"
                 placeholder="Exhibition Time: mm/dd/yyyy - mm/dd/yyyy">
@@ -95,9 +98,9 @@
                 also submit their contact information so we can follow up.</label>
             <input type="text" class="form-control" name="contacts">
         </div>
-        <button type="submit" class="btn btn-primary" style="margin:auto;display:block;">Submit</button>
+        <button type="submit" class="btn btn-primary" id="submit-button" style="margin:auto;display:block;">Submit</button>
     </form>
-    <a href="index.html" class="btn btn-primary" style="margin:auto;display:block;">Back</a>
+    <a href="index.html" class="btn btn-primary" id="back-button" style="margin:auto;display:block;">Back</a>
 
     <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"
