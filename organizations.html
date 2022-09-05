@@ -22,8 +22,9 @@
 
 <body>
     <form method="POST" action="https://script.google.com/macros/s/AKfycbxMw_QOGoWQVpPPFMW3TncLTZh_i2hcZUCzWnyf0lW_jXzHjCrfGCpitcGQ9XaEzAhDXg/exec
-        ">
+        " autocomplete="off">
         <div class="form-group" style="margin:20px 30px;">
+            <p><strong>Your information</strong></p>
             <label>Your Name:</label>
             <input type="text" class="form-control" name="name">
 
@@ -43,77 +44,91 @@
             <input type="text" class="form-control" name="basedlocation">
         </div>
         <div class="form-group" style="margin:20px 30px;">
-            <label> Please provide details about a few significant Asian American organizations or institutions from 1960 to
-                present that you have had a major connection with.</label><br>
-            <label>Organization/Institution 1</label>
-            <input type="text" class="form-control" name="orgname1" placeholder="Organization/Institution Name">
-            <input type="text" class="form-control" name="orgfounding1"
-                placeholder="Date of Founding: mm/dd/yyyy">
-            <input type="checkbox" id="operating" name="operating1">
-            <label for="operating">Still Operating</label>
-            <input type="text" class="form-control" name="orgmembers1"
-                placeholder="1-5 Main Members/Leaders">
-            <input type="text" class="form-control" name="orglocation1" placeholder="Locations">
-            <input type="text" class="form-control" name="orgparticipation1" placeholder="Dates of Your Own Participation: mm/dd/yyyy - mm/dd/yyyy">
-            <input type="text" class="form-control" name="orgdesc1"
-                placeholder="One-line Description of the Organization/Institution's Contribution to Asian American Art">
-            <label for="name">Organization/Institution 2</label>
-            <input type="text" class="form-control" name="orgname2" placeholder="Organization/Institution Name">
-            <input type="text" class="form-control" name="orgfounding2"
-            placeholder="Date of Founding: mm/dd/yyyy">
-            <input type="checkbox" id="operating" name="operating2">
-            <label for="operating">Still Operating</label>
-            <input type="text" class="form-control" name="orgmembers2"
-                placeholder="1-5 Main Members/Leaders">
-            <input type="text" class="form-control" name="orglocation2" placeholder="Locations">
-            <input type="text" class="form-control" name="orgparticipation2" placeholder="Dates of Your Own Participation: mm/dd/yyyy - mm/dd/yyyy">
-            <input type="text" class="form-control" name="orgdesc2"
-                placeholder="One-line Description of the Organization/Institution's Contribution to Asian American Art">
-            <label>Organization/Institution 3</label>
-            <input type="text" class="form-control" name="orgname3" placeholder="Organization/Institution Name">
-            <input type="text" class="form-control" name="orgfounding3"
-            placeholder="Date of Founding: mm/dd/yyyy">    
-            <input type="checkbox" id="operating" name="operating3">
-            <label for="operating">Still Operating</label>
-            <input type="text" class="form-control" name="orgmembers3"
-                placeholder="1-5 Main Members/Leaders">
-            <input type="text" class="form-control" name="orglocation3" placeholder="Locations">
-            <input type="text" class="form-control" name="orgparticipation3" placeholder="Dates of Your Own Participation: mm/dd/yyyy - mm/dd/yyyy">
-            <input type="text" class="form-control" name="orgdesc3"
-                placeholder="One-line Description of the Organization/Institution's Contribution to Asian American Art">
-            <label>Organization/Institution 4</label>
-            <input type="text" class="form-control" name="orgname4" placeholder="Organization/Institution Name">
-            <input type="text" class="form-control" name="orgfounding4"
-            placeholder="Date of Founding: mm/dd/yyyy">
-            <input type="checkbox" id="operating" name="operating4">
-            <label for="operating">Still Operating</label>
-            <input type="text" class="form-control" name="orgmembers4"
-                placeholder="1-5 Main Members/Leaders">
-            <input type="text" class="form-control" name="orglocation4" placeholder="Locations">
-            <input type="text" class="form-control" name="orgparticipation4" placeholder="Dates of Your Own Participation: mm/dd/yyyy - mm/dd/yyyy">
-            <input type="text" class="form-control" name="orgdesc4"
-                placeholder="One-line Description of the Organization/Institution's Contribution to Asian American Art">
-            <label>Organization/Institution 5</label>
-            <input type="text" class="form-control" name="orgname5" placeholder="Organization/Institution Name">
-            <input type="text" class="form-control" name="orgfounding5"
-            placeholder="Date of Founding: mm/dd/yyyy">
-            <input type="checkbox" id="operating" name="operating5">
-            <label for="operating">Still Operating</label>
-            <input type="text" class="form-control" name="orgmembers5"
-                placeholder="1-5 Main Members/Leaders">
-            <input type="text" class="form-control" name="orglocation5" placeholder="Locations">
-            <input type="text" class="form-control" name="orgparticipation5" placeholder="Dates of Your Own Participation: mm/dd/yyyy - mm/dd/yyyy">
-            <input type="text" class="form-control" name="orgdesc5"
-                placeholder="One-line Description of the Organization/Institution's Contribution to Asian American Art">
+            <p><strong>Please provide details about a few significant Asian American organizations or institutions from
+                    1960 to
+                    present that you have had a major connection with.</strong></p>
+            <div class="group-container">
+                <label>Organization/Institution 1</label>
+                <input type="text" class="form-control" name="orgname1" placeholder="Organization/Institution Name">
+                <input type="text" class="form-control" name="orgfounding1" placeholder="Date of Founding: mm/dd/yyyy">
+                <input type="checkbox" id="operating" name="operating1">
+                <label for="operating">Still Operating</label>
+                <input type="text" class="form-control" name="orgmembers1" placeholder="1-5 Main Members/Leaders">
+                <input type="text" class="form-control" name="orglocation1" placeholder="Locations">
+                <input type="text" class="form-control" name="orgparticipation1"
+                    placeholder="Dates of Your Own Participation: mm/dd/yyyy - mm/dd/yyyy">
+                <input type="text" class="form-control" name="orgdesc1"
+                    placeholder="One-line Description of the Organization/Institution's Contribution to Asian American Art">
+            </div>
+            <div class="group-container">
+                <label for="name">Organization/Institution 2</label>
+                <input type="text" class="form-control" name="orgname2" placeholder="Organization/Institution Name">
+                <input type="text" class="form-control" name="orgfounding2" placeholder="Date of Founding: mm/dd/yyyy">
+                <input type="checkbox" id="operating" name="operating2">
+                <label for="operating">Still Operating</label>
+                <input type="text" class="form-control" name="orgmembers2" placeholder="1-5 Main Members/Leaders">
+                <input type="text" class="form-control" name="orglocation2" placeholder="Locations">
+                <input type="text" class="form-control" name="orgparticipation2"
+                    placeholder="Dates of Your Own Participation: mm/dd/yyyy - mm/dd/yyyy">
+                <input type="text" class="form-control" name="orgdesc2"
+                    placeholder="One-line Description of the Organization/Institution's Contribution to Asian American Art">
+            </div>
+            <div class="group-container">
+                <label>Organization/Institution 3</label>
+                <input type="text" class="form-control" name="orgname3" placeholder="Organization/Institution Name">
+                <input type="text" class="form-control" name="orgfounding3" placeholder="Date of Founding: mm/dd/yyyy">
+                <input type="checkbox" id="operating" name="operating3">
+                <label for="operating">Still Operating</label>
+                <input type="text" class="form-control" name="orgmembers3" placeholder="1-5 Main Members/Leaders">
+                <input type="text" class="form-control" name="orglocation3" placeholder="Locations">
+                <input type="text" class="form-control" name="orgparticipation3"
+                    placeholder="Dates of Your Own Participation: mm/dd/yyyy - mm/dd/yyyy">
+                <input type="text" class="form-control" name="orgdesc3"
+                    placeholder="One-line Description of the Organization/Institution's Contribution to Asian American Art">
+            </div>
+            <div class="group-container">
+                <label>Organization/Institution 4</label>
+                <input type="text" class="form-control" name="orgname4" placeholder="Organization/Institution Name">
+                <input type="text" class="form-control" name="orgfounding4" placeholder="Date of Founding: mm/dd/yyyy">
+                <input type="checkbox" id="operating" name="operating4">
+                <label for="operating">Still Operating</label>
+                <input type="text" class="form-control" name="orgmembers4" placeholder="1-5 Main Members/Leaders">
+                <input type="text" class="form-control" name="orglocation4" placeholder="Locations">
+                <input type="text" class="form-control" name="orgparticipation4"
+                    placeholder="Dates of Your Own Participation: mm/dd/yyyy - mm/dd/yyyy">
+                <input type="text" class="form-control" name="orgdesc4"
+                    placeholder="One-line Description of the Organization/Institution's Contribution to Asian American Art">
+            </div>
+            <div class="group-container">
+                <label>Organization/Institution 5</label>
+                <input type="text" class="form-control" name="orgname5" placeholder="Organization/Institution Name">
+                <input type="text" class="form-control" name="orgfounding5" placeholder="Date of Founding: mm/dd/yyyy">
+                <input type="checkbox" id="operating" name="operating5">
+                <label for="operating">Still Operating</label>
+                <input type="text" class="form-control" name="orgmembers5" placeholder="1-5 Main Members/Leaders">
+                <input type="text" class="form-control" name="orglocation5" placeholder="Locations">
+                <input type="text" class="form-control" name="orgparticipation5"
+                    placeholder="Dates of Your Own Participation: mm/dd/yyyy - mm/dd/yyyy">
+                <input type="text" class="form-control" name="orgdesc5"
+                    placeholder="One-line Description of the Organization/Institution's Contribution to Asian American Art">
+            </div>
         </div>
         <div class="form-group" style="margin:20px 30px;">
-            <label>Please suggest Asian American artists who may be able to contribute to this map. Please
-                also submit their contact information so we can follow up.</label>
+            <p><strong>Please suggest Asian American artists who may be able to contribute to this map.
+                    Please
+                    also submit their contact information so we can follow up.</strong></p>
             <input type="text" class="form-control" name="contacts">
         </div>
-        <button type="submit" class="btn btn-primary" id="submit-button" style="margin:auto;display:block;">Submit</button>
+        <button type="submit" class="btn btn-primary" id="submit-button"
+            style="margin:auto;display:block;">Submit</button>
     </form>
     <a href="index.html" class="btn btn-primary" id="back-button" style="margin:auto;display:block;">Back</a>
+    <script>
+        document.getElementById("submit-button").addEventListener("click", sayThankYou);
+        function sayThankYou() {
+            window.alert("Thank you for your contribution to the Network Map! Your submission has been recorded, and we will add the data to the map soon!");
+        }
+    </script>
     <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"
         integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
